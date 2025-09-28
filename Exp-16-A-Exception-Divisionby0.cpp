@@ -1,10 +1,14 @@
+//Name:-Rajendra Chaganti
+//PRN:-24070123150
+//div:-B3
+//Exp 16 A Exception - Division by 0
 #include <iostream>
 using namespace std;
 int main(){
     float n1,n2,ans;
-    cout<<"Enter No. 1:";
+    cout<<"Enter No. 1 : ";
     cin>>n1;
-    cout<<"Enter No. 2:";
+    cout<<"Enter No. 2 : ";
     cin>>n2;
     try{
         if(n2==0){
@@ -12,7 +16,7 @@ int main(){
         }
         else{
             ans=n1/n2;
-            cout<<"Answer is:"<<ans<<endl;
+            cout<<"Answer is : "<<ans<<endl;
         }
     }
     catch(float num){
@@ -22,7 +26,7 @@ int main(){
 }
 /*
 Output :
-Enter No. 1:34
-Enter No. 2:0
+Enter No. 1 : 34
+Enter No. 2 : 0
 Cannot Divide by 0
 */
